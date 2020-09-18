@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!-- <html lang="en">
+
+<body>
+Hello world!
+
+<div class="videoContainer">
+<iframe src="http://www.youtube.com/embed?listType=search;list=nbc sports arsenal highlights january 2020" frameborder="0" width="480" height="360"></iframe>
+</div>
+<script src="https://yvoschaap.com/ytpage/ytembed.js"></script>
+<div id="ytThumbs"><ins>Made with the <a href="https://yvoschaap.com/youtube.html?utm_source=generator">Youtube Embed Generator</a>.</ins></div>
+
+<script>
+	ytEmbed.init({'block':'ytThumbs','key':'your-youtube-developer-key','q':'','type':'search','results':5,'meta':true,'player':'embed','layout':'full'});
+</script>
+</body>
+</html> -->
+
+<html> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Youtube (Arsenal Highlights)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<script type="text/javascript">
+
+function go_get(){
+ var base_url = 'http://www.youtube.com/embed?listType=search&list=';
+ var search_field = document.getElementById('yourtextfield').value;
+ var target_url = base_url + search_field;
+ var ifr = document.getElementById('youriframe');
+ ifr.src = target_url;
+ return false;
+}
+
+</script> 
+
+<form onsubmit="go_get(); return false;" >
+ <input type="text"  id="yourtextfield"/>
+ <input type="submit" value="Search Playlists" />
+</form>
+
+<iframe id="youriframe" width="640" height="360" ></iframe>
+
+Version 1.1.0
+</body>
+</html>
