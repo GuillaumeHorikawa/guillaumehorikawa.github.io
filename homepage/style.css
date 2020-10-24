@@ -1,4 +1,8 @@
 
+
+body {
+  color: black;
+}
 .videoContainer {
     position: absolute;
     width: 100%;
