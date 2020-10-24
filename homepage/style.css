@@ -1,24 +1,214 @@
+@import url(https://github.com/GuillaumeHorikawa/guillaumehorikawa.github.io/blob/master/fonts/MostraNuova-Black.ttf);
+@import url(https://github.com/GuillaumeHorikawa/guillaumehorikawa.github.io/blob/master/fonts/MostraNuova-Bold.ttf);
+@import url(https://github.com/GuillaumeHorikawa/guillaumehorikawa.github.io/blob/master/fonts/MostraNuova-Heavy.ttf);
+@import url(https://github.com/GuillaumeHorikawa/guillaumehorikawa.github.io/blob/master/fonts/MostraNuova-Light.ttf);
+@import url(https://github.com/GuillaumeHorikawa/guillaumehorikawa.github.io/blob/master/fonts/MostraNuova-Thin.ttf);
+@import url(https://github.com/GuillaumeHorikawa/guillaumehorikawa.github.io/blob/master/fonts/MostraNuova.ttf);
+@import url(https://github.com/GuillaumeHorikawa/guillaumehorikawa.github.io/blob/master/fonts/MostraNuovaAltA-Bold.ttf);
+@import url(https://github.com/GuillaumeHorikawa/guillaumehorikawa.github.io/blob/master/fonts/MostraNuovaAltA-Heavy.ttf);
+@import url(https://github.com/GuillaumeHorikawa/guillaumehorikawa.github.io/blob/master/fonts/MostraNuovaAltB.ttf);
+@import url(https://github.com/GuillaumeHorikawa/guillaumehorikawa.github.io/blob/master/fonts/MostraNuovaAltB-Bold.ttf);
+@import url(https://github.com/GuillaumeHorikawa/guillaumehorikawa.github.io/blob/master/fonts/MostraNuovaAltB-Heavy.ttf);
+@import url(https://github.com/GuillaumeHorikawa/guillaumehorikawa.github.io/blob/master/fonts/MostraNuovaAltB-Light.ttf);
+
 
 
 body {
   color: black;
+  font-family: 'MostraNuova', sans-serif;
+  margin:auto;
+ 
 }
-.videoContainer {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  iframe {
 
-    width: 100%;
-    height: 100%; 
-  }
+#siteVersion {
+  z-index: 5;
+  position: fixed;
+  top: 5px;
+  left: 5px;
+  /* border:2px solid red;
+  font-size: 100px; */
+}
+
+header{
+  position: fixed;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  z-index: 5;
+  background-color: white;
+  border-bottom: 2px solid black;
+}
+
+h1 { 
+  font-family: 'MostraNuova-Bold', sans-serif;
+  font-size: 80px;
+
+ 
+}
+
+#title {
+  text-decoration: none;
+  transition: .2s ease-in-out;
+}
+
+#title:active {
+  font-size: 79.5px;
+}
+
+#title:hover {
+  opacity: .3;
+}
+
+h2 {
+  font-family: 'MostraNuova-Light', sans-serif;
+  font-size: 17px;
+  /* border-bottom: 2px solid black; */
+  margin-top: -30px;
+  padding-bottom: 20px;
+}
+
+main {
+  position: absolute;
+  top: 250px;
+  width: 100%;
+  /* border: 2px solid blue; */
+  text-align: center;
+  display: block;
+  height: 800px;
+}
+
+#Projects {
+  display: flex;
+}
+
+p {font-family: 'MostraNuova-Bold', sans-serif;
+  font-size: 40px;
+}
+
+#ProjectsLogo {
+  /* border-right: 2px solid black; */
+  width: 50%;
+  height: 190px;
+
+}
+
+.logo {
+  transition: .1s ease-in-out;
+}
+
+.logo:hover {
+    opacity: .3;
+}
+
+#MJLogo {
+  height: 100px;
+  position: absolute;
+  right: 50.3%;
+  z-index:1;
+}
+
+#WLogo {
+  height: 180px;
+  position: absolute;
+  right: 47.5%;
+  top: 180px;
+  filter: brightness(20%);
+  z-index:0;
+}
+
+#ProjectsName {
+  display: block;
+  /* text-align: left; */
+  /* border: 2px solid green; */
+  height: 200px;
+  width: 50%;
+  height: 190px;
+  /* font-family: 'MostraNuova-Light', sans-serif; */
+}
+
+#MJ {
+  position: absolute;
+  left: 51%;
+  top: 170px;
+}
+
+#W {
+  position: absolute;
+  left: 51%;
+  top: 260px;
+
+}
+
+a {
+  /* text-decoration: none; */
+  color: black;
+  transition: .2s ease-in-out;
+}
+
+a:active {
+  margin-top:2px;
+}
+
+a:hover {
+  opacity: .3;
+}
+
+#Other {
+  height: 100px;
+}
+
+button {
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: black;
+  transition: .1s ease-in-out;
+ 
+}
+
+button:hover {
+  opacity: .3;
+}
+
+#contact {
+  font-family: 'MostraNuova-Bold', sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
+#contact:hover {
+  opacity: 1;
+}
+
+#screenshot {
+  /* border: 2px solid blue; */
+  position: absolute;
+  top: 900px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+#screenshot img {
+  width: 1450px;
+  filter: grayscale(100%);
+  opacity: 0.1;
+  transition: .5s ease-in-out;
+}
+
+#screenshot img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+footer {
+  position: absolute;
+  bottom: -1005px;
+  height: 30px;
+  width: 100%;
+  text-align: center;
+  /* background-color: red; */
+  font-size: 12px;
+}

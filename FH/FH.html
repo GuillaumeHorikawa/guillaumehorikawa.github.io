@@ -3,8 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SF_FH</title>
-    <link rel="stylesheet" href="../FH/FH.css">
+    <title>SF:FH</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="./FH.css">
 </head>
 <body>
     <script type="text/javascript">
@@ -17,16 +24,23 @@
          ifr.src = target_url;
          return false;
         }
-        
-        </script> 
-        
-        <form onsubmit="go_get(); return false;" >
-         <input type="text"  id="yourtextfield"/>
-         <input type="submit" value="Search Playlists" />
-        </form>
-        <div class="videoContainer">
-        <iframe id="youriframe" width="640" height="360" ></iframe>
-        </div>
     
+    </script> 
+    
+    <form onsubmit="go_get(); return false;" >
+        <input type="text"  id="yourtextfield"/>
+        <input id="SearchButton" type="submit" value="" />
+    </form>
+    <div class="videoContainer">
+    <iframe id="youriframe" width="640" height="360" ></iframe>
+    </div>
+    <button id="backButton">
+        <a href="../index.html">
+            &#8617; Back
+        </a>
+    </button>
+    <footer>
+        Copyright © 2020 Guillaume Horikawa. All rights reserved. 
+    </footer>
 </body>
 </html>
