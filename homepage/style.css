@@ -11,6 +11,24 @@
 @import url(https://github.com/GuillaumeHorikawa/guillaumehorikawa.github.io/blob/master/fonts/MostraNuovaAltB-Heavy.ttf);
 @import url(https://github.com/GuillaumeHorikawa/guillaumehorikawa.github.io/blob/master/fonts/MostraNuovaAltB-Light.ttf);
 
+@font-face {
+  font-family: "MostraNuova";
+  src:
+  url("../fonts/MostraNuova-Black.ttf") format("ttf"),
+  url("../fonts/MostraNuova-Bold.ttf") format("ttf"),
+  url("../fonts/MostraNuova-Heavy.ttf") format("ttf"),
+  url("../fonts/MostraNuova-Light.ttf") format("ttf"),
+  url("../fonts/MostraNuova-Thin.ttf") format("ttf"),
+  url("../fonts/MostraNuova.ttf") format("ttf"),
+  url("../fonts/MostraNuovaAltA-Bold.ttf") format("ttf"),
+  url("../fonts/MostraNuovaAltA-Heavy.ttf") format("ttf"),
+  url("../fonts/MostraNuovaAltB.ttf") format("ttf"),
+  url("../fonts/MostraNuovaAltB-Bold.ttf") format("ttf"),
+  url("../fonts/MostraNuovaAltB-Heavy.ttf") format("ttf"),
+  url("../fonts/MostraNuovaAltB-Light.ttf") format("ttf"),
+  
+  }
+
 
 
 body {
