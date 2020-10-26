@@ -1,0 +1,111 @@
+
+@import url(https://github.com/GuillaumeHorikawa/guillaumehorikawa.github.io/blob/master/fonts/MostraNuova-Black.ttf);
+@import url(https://github.com/GuillaumeHorikawa/guillaumehorikawa.github.io/blob/master/fonts/MostraNuova-Bold.ttf);
+@import url(https://github.com/GuillaumeHorikawa/guillaumehorikawa.github.io/blob/master/fonts/MostraNuova-Heavy.ttf);
+@import url(https://github.com/GuillaumeHorikawa/guillaumehorikawa.github.io/blob/master/fonts/MostraNuova-Light.ttf);
+@import url(https://github.com/GuillaumeHorikawa/guillaumehorikawa.github.io/blob/master/fonts/MostraNuova-Thin.ttf);
+@import url(https://github.com/GuillaumeHorikawa/guillaumehorikawa.github.io/blob/master/fonts/MostraNuova.ttf);
+@import url(https://github.com/GuillaumeHorikawa/guillaumehorikawa.github.io/blob/master/fonts/MostraNuovaAltA-Bold.ttf);
+@import url(https://github.com/GuillaumeHorikawa/guillaumehorikawa.github.io/blob/master/fonts/MostraNuovaAltA-Heavy.ttf);
+@import url(https://github.com/GuillaumeHorikawa/guillaumehorikawa.github.io/blob/master/fonts/MostraNuovaAltB.ttf);
+@import url(https://github.com/GuillaumeHorikawa/guillaumehorikawa.github.io/blob/master/fonts/MostraNuovaAltB-Bold.ttf);
+@import url(https://github.com/GuillaumeHorikawa/guillaumehorikawa.github.io/blob/master/fonts/MostraNuovaAltB-Heavy.ttf);
+@import url(https://github.com/GuillaumeHorikawa/guillaumehorikawa.github.io/blob/master/fonts/MostraNuovaAltB-Light.ttf);
+
+
+
+body {
+  font-family: 'MostraNuova', sans-serif;
+  height: 1000px;
+ 
+}
+
+
+
+#yourtextfield {
+  height: 28px;
+  width: 80%;
+  background-color:rgb(238, 238, 238);
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  position: absolute;
+  font-size: 25px;
+  top: 60px;
+}
+#SearchButton {
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  background-image: url('../images/icons8-search-480.png');
+  background-color: white;
+  background-size: 23px;
+  background-repeat: no-repeat;
+  background-position-x: 3px;
+  background-position-y: 2px;
+  color: black;
+  font-family: 'MostraNuova-Bold', sans-serif;
+  font-size: 20px;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  top: 60px;
+  left: 85%;
+  transition: .2s ease-in-out;
+}
+#SearchButton:hover {
+  opacity:.3;
+}
+
+#SearchButton:active {background-position-y: 4px;}
+
+.videoContainer {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  iframe {
+    border-top: 2px solid rgb(238, 238, 238);
+  }
+
+  #backButton {
+    position: absolute;
+    font-size: 17px;
+    top: 20px;
+    left: 10px;
+    height: 28px;
+    width: 83px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    transition: .2s ease-in-out;
+  }
+
+  #backButton:hover {opacity:.3;}
+
+  #backButton:active {
+    margin-top: 3px;
+  }
+
+  #backButton a {
+    font-family: 'MostraNuova-Bold', sans-serif;
+    color: black;
+  }
+
+  footer {
+    position: absolute;
+    bottom: -200px;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    /* background-color: red; */
+    font-size: 12px;
+    color: black;
+  }

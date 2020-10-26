@@ -11,7 +11,8 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="./homepage/style.css">
+    <link rel="stylesheet" media="screen and (min-width: 1000px)" href="./homepage/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 992px)" href="./homepage/styleMobile.css">
 </head>
 
 <body>
@@ -19,7 +20,7 @@
 
     <header>
         <div id="siteVersion">
-            Version 1.1.4
+            Version 1.1.5
         </div>
         <h1><a id="title" href="./index.html">GUILLAUME HORIKAWA</a></h1>
         <h2>Web Developer | Graphic Designer</h2>
@@ -29,13 +30,21 @@
         <p>Projects</p>
         <div id="Projects">
             <div id="ProjectsLogo">
-                <img id="MJLogo" class="logo" src="../images/logo.jpg"></img>
-                <img id="WLogo" class="logo" src="../images/Willo text logo.png"></img>
+                <div class="logoContainer">
+                    <img id="MJLogo" class="logo" src="../images/logo.jpg"></img>
+                </div>
+                <div class="logoContainer">
+                    <img id="WLogo" class="logo" src="../images/Willo text logo.png"></img>
+                </div>
             </div>
             <div id="ProjectsName">
-                <a id="MJ" href="https://masayajunior.github.io/"> Masaya Junior</a>
+                <div class="nameContainer">
+                    <a id="MJ" href="https://masayajunior.github.io/">Masaya Junior</a>
+                </div>
                 <br>
-                <a id="W" href="https://willoconcertseries.github.io/"> Willo Concert Series</a>
+                <div class="nameContainer">
+                    <a id="W" href="https://willoconcertseries.github.io/"> Willo Concert Series</a>
+                </div>
             </div>
         </div>
         <p>Other</p>
@@ -48,11 +57,16 @@
     </main>
 
     <div id="screenshot">
-        <img src="./images/WIP.png">
+        <img id="WIP" src="./images/WIP.png">
+    </div>
+
+    <div id="abstractTwo">
+        <img id="AT" src="./images/Abstract2.png">
     </div>
 
     <footer>
-        Copyright © 2020 Guillaume Horikawa. All rights reserved. 
+        <div id="footerDesktop"> Copyright © 2020 Guillaume Horikawa. All rights reserved. </div>
+        <div id="footerPhoneTablet"> Copyright © 2020 Guillaume Horikawa. All rights reserved. Version 1.1.5. </div>
     </footer>
 </body>
 </html>

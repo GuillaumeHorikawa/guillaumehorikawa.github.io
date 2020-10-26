@@ -25,8 +25,15 @@ body {
   position: fixed;
   top: 5px;
   left: 5px;
+  color: white;
+  font-size: 12px;
   /* border:2px solid red;
   font-size: 100px; */
+  transition: .5s ease-in-out;
+}
+
+#siteVersion:hover {
+  color: black;
 }
 
 header{
@@ -120,15 +127,21 @@ p {font-family: 'MostraNuova-Bold', sans-serif;
 
 #ProjectsName {
   display: block;
-  /* text-align: left; */
-  /* border: 2px solid green; */
-  height: 200px;
-  width: 50%;
+  text-align: left;
   height: 190px;
+  width: 50%;
   /* font-family: 'MostraNuova-Light', sans-serif; */
 }
 
-#MJ {
+.nameContainer {
+  height: 95px;
+  display: flex;
+  align-items: center;
+}
+
+br {display: none;}
+
+/* #MJ {
   position: absolute;
   left: 51%;
   top: 170px;
@@ -139,7 +152,7 @@ p {font-family: 'MostraNuova-Bold', sans-serif;
   left: 51%;
   top: 260px;
 
-}
+} */
 
 a {
   /* text-decoration: none; */
@@ -203,12 +216,20 @@ button:hover {
   opacity: 1;
 }
 
+#abstractTwo {
+  display: none;
+}
+
 footer {
   position: absolute;
   bottom: -1005px;
-  height: 30px;
+  height: 27px;
   width: 100%;
   text-align: center;
   /* background-color: red; */
   font-size: 12px;
+}
+
+#footerPhoneTablet {
+  display: none;
 }

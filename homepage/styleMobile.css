@@ -1,0 +1,202 @@
+@import url(https://github.com/GuillaumeHorikawa/guillaumehorikawa.github.io/blob/master/fonts/MostraNuova-Black.ttf);
+@import url(https://github.com/GuillaumeHorikawa/guillaumehorikawa.github.io/blob/master/fonts/MostraNuova-Bold.ttf);
+@import url(https://github.com/GuillaumeHorikawa/guillaumehorikawa.github.io/blob/master/fonts/MostraNuova-Heavy.ttf);
+@import url(https://github.com/GuillaumeHorikawa/guillaumehorikawa.github.io/blob/master/fonts/MostraNuova-Light.ttf);
+@import url(https://github.com/GuillaumeHorikawa/guillaumehorikawa.github.io/blob/master/fonts/MostraNuova-Thin.ttf);
+@import url(https://github.com/GuillaumeHorikawa/guillaumehorikawa.github.io/blob/master/fonts/MostraNuova.ttf);
+@import url(https://github.com/GuillaumeHorikawa/guillaumehorikawa.github.io/blob/master/fonts/MostraNuovaAltA-Bold.ttf);
+@import url(https://github.com/GuillaumeHorikawa/guillaumehorikawa.github.io/blob/master/fonts/MostraNuovaAltA-Heavy.ttf);
+@import url(https://github.com/GuillaumeHorikawa/guillaumehorikawa.github.io/blob/master/fonts/MostraNuovaAltB.ttf);
+@import url(https://github.com/GuillaumeHorikawa/guillaumehorikawa.github.io/blob/master/fonts/MostraNuovaAltB-Bold.ttf);
+@import url(https://github.com/GuillaumeHorikawa/guillaumehorikawa.github.io/blob/master/fonts/MostraNuovaAltB-Heavy.ttf);
+@import url(https://github.com/GuillaumeHorikawa/guillaumehorikawa.github.io/blob/master/fonts/MostraNuovaAltB-Light.ttf);
+
+body {
+    font-family: 'MostraNuova', sans-serif;
+    margin: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: block;
+    justify-content:center;
+}
+
+#siteVersion {
+    display: none;
+}
+
+h1 { 
+    /* font-family: 'MostraNuova-Bold', sans-serif; */
+    font-size: 40px;
+    font-family: 'MostraNuova-Bold', sans-serif;
+  }
+
+h2 { 
+/* font-family: 'MostraNuova-Bold', sans-serif; */
+font-size: 20px;
+font-family: 'MostraNuova-light', sans-serif;
+}
+
+
+#title {
+    text-decoration: none;
+    transition: .2s ease-in-out;
+  }
+
+a {
+    color: black;
+}
+
+header {
+    border-bottom: 2px solid rgb(221, 221, 221);
+    text-align: center;
+    padding-bottom:30px;
+}
+
+main {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    text-align: center;
+    
+}
+
+#Projects {
+    display: flex;
+    height: 145px;
+    border-bottom: 2px solid rgb(221, 221, 221);
+    padding-bottom:30px;
+
+}
+
+p {font-family: 'MostraNuova-Bold', sans-serif;
+font-size: 30px;
+margin-top: 50px;
+}
+
+#ProjectsLogo {
+width: 50%;
+height: 190px;
+display: block;
+
+}
+
+.logo {
+transition: .1s ease-in-out;
+}
+
+.logo:hover {
+    opacity: .3;
+}
+
+.logoContainer {
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid green; */
+}
+
+#MJLogo {
+height: 70px;
+z-index:1;
+
+}
+
+#WLogo {
+height: 100px;
+margin-top: -17px;
+filter: brightness(20%);
+z-index:0;
+}
+
+#ProjectsName {
+/* display: block; */
+/* text-align: left; */
+width: 50%;
+height: 190px;
+/* font-family: 'MostraNuova-Light', sans-serif; */
+}
+
+.nameContainer {
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid green; */
+    height: 70px;
+    align-items: center;
+}
+
+br {display: none;}
+
+
+
+/* a:active {
+margin-top:2px;
+} */
+
+a:hover {
+opacity: .3;
+}
+
+#Other {
+height: 80px;
+/* display: flex;
+justify-content: center; */
+text-align: center;
+/* border: 2px solid black; */
+border-bottom: 2px solid rgb(221, 221, 221);
+margin-bottom: 20px;
+}
+
+button {
+border: 2px solid black;
+border-radius: 5px;
+background-color: black;
+transition: .1s ease-in-out;
+margin-top: 50px;
+
+
+}
+
+button:hover {
+opacity: .3;
+}
+
+#contact {
+font-family: 'MostraNuova-Bold', sans-serif;
+font-size: 25px;
+color: white;
+
+}
+
+#contact:hover {
+opacity: 1;
+}
+
+#screenshot {
+  display: none;
+}
+
+#abstractTwo {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid rgb(221, 221, 221);
+
+}
+
+#AT {
+    height: 380px;
+}
+
+
+
+footer {
+    /* height: 100px; */
+    margin-bottom: 20px;
+    /* width: 100%; */
+    font-size: 12px;
+    text-align: center;
+}
+
+#footerDesktop {
+    display: none;
+  }
+  
