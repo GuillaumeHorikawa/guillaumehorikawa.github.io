@@ -1,0 +1,17 @@
+body { padding-bottom: 20px }
+#main { background: #fff; margin: 0 20px 20px 20px }
+#main h1 { padding:0; margin-top: 20px }
+#main h2 { text-align: left }
+#header { background-color: #eee; font-weight: normal; margin:0; padding:10px; font-size: small }
+
+table { margin: auto; border-collapse: separate; border-spacing: 20px }
+td { vertical-align: top; text-align:center; width: 235px }
+hr { margin-top: 20px; }
+
+pre { text-align: left; overflow: visible }
+code { background-color: #ffc }
+pre code { background-color: #eee }
+
+.pics { height: 485px; width: 675px; padding:0; margin:0; overflow: hidden; text-align:center;}
+.pics img { height: 450px; width: auto; padding: 0px; border: 0px; margin-left:auto;margin-right:auto;}
+

@@ -1,0 +1,20 @@
+
+svg text {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(68,68,68);
+    font-size: 9px;
+   
+}
+
+.prefix__tick text {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.prefix__label {
+    font-size: 12px;
+}
+
+tspan {
+    font-size: 12px;
+}

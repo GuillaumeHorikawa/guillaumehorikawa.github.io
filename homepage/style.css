@@ -83,7 +83,11 @@ h1 {
 }
 
 #title:hover {
-  opacity: .3;
+  opacity: .5;
+}
+
+#title:hover ~ h2 {
+  color: red !important;
 }
 
 h2 {

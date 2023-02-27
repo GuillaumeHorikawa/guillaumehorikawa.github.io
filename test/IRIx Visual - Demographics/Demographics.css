@@ -1,0 +1,219 @@
+
+
+.demcls {
+    transition: .2s ease-in-out;
+}
+
+/* .demcls:hover {
+    opacity: .7;
+} */
+.demcircle { 
+    transform-origin: 50% 50%;
+    
+}
+
+
+.demcircle:hover {
+    transform: scale(1.1);
+}
+
+.DemographicsBubbles 
+{height: 100vh;
+}
+
+/* 
+[data-tooltip-text]:hover {
+	position: relative;
+}
+
+[data-tooltip-text]:hover:after {
+	background-color: #000000;
+	background-color: rgba(0, 0, 0, 0.8);
+
+	-webkit-box-shadow: 0px 0px 3px 1px rgba(50, 50, 50, 0.4);
+	-moz-box-shadow: 0px 0px 3px 1px rgba(50, 50, 50, 0.4);
+	box-shadow: 0px 0px 3px 1px rgba(50, 50, 50, 0.4);
+
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+
+	color: #FFFFFF;
+	font-size: 12px;
+	content: attr(data-tooltip-text);
+
+  margin-bottom: 10px;
+	top: 130%;
+	left: 0;    
+	padding: 7px 12px;
+	position: absolute;
+	width: auto;
+	min-width: 50px;
+	max-width: 300px;
+	word-wrap: break-word;
+
+	z-index: 9999;
+} */
+
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+
+#TreatyImplementationVisual {
+border: 2px solid red;
+z-index: 0;
+}
+
+.SVGLabel {
+font-weight: 200;
+padding: 10px;
+border: none;
+color: white;
+font-size: 12px;
+position: fixed;
+z-index: 1;
+transition: .2s ease-in-out;
+}
+
+.SVGLabel:hover {filter:brightness(120%);}
+
+#SVGLabelIran {
+background-color: #f3765b;
+top: 300px;
+left: 900px;
+}
+
+#SVGLabelCRC {
+background-color: #ffd200;
+top: 560px;
+left: 43vw;
+}
+    svg {
+        position: fixed;
+        height: 90vh;
+    }
+
+path {
+    transition: .2s ease-in-out;
+}
+
+
+
+.light {
+    font-weight: 200;
+}
+
+.bar-chart {
+    background-color: #C7D9D9;
+    }
+    
+.bar {
+     fill: #115D8C;
+     }
+
+
+.DemographicSVG {
+    z-index: -1;
+}
+
+.DVLContainer {
+    width: 100%;
+}
+
+.DVLContainer a {
+    text-decoration: none;
+    color: black;
+    transition: .2s ease-in-out;
+}
+
+.DVLContainer a:hover {
+    text-decoration: underline;
+}
+
+.DemographicVisualLabels {
+    height: 100vh;
+    width: 50vw;
+
+    font-weight: 300;
+    float: right;
+}
+
+.DemographicVisualLabels ul {
+    list-style: none;
+}
+
+.DemographicVisualLabels li {
+    display: flex;
+    padding: 8px;
+}
+
+.ColorCode {
+    height: 18px;
+    width: 18px;
+    margin-right: 10px;
+}
+
+
+.popUpContainerII {
+    display: flex;
+    margin-bottom: 5px;
+    transition: .2s ease-in-out;
+    z-index: 1;
+}
+
+.popUpContainerII:hover {
+    margin-left: 10px;
+}
+
+.ColorCodeI {
+    background-color: #E05759;
+}
+
+.ColorCodeII {
+    background-color: #4E79A6;
+}
+
+.ColorCodeIII {
+    background-color: #AF7AA0;
+}
+
+.ColorCodeIV {
+    background-color: #B9AFAB;
+}
+
+.ColorCodeV {
+    background-color: #FE9DA6;
+}
+
+.ColorCodeVI {
+    background-color: #76B6B1;
+}
+
+.ColorCodeVII {
+    background-color: #59A14F;
+}
+
+.ColorCodeVIII {
+    background-color: #F18E2B;
+}
+
+.ColorCodeIX {
+    background-color: #9C755F;
+}
+
+.ColorCodeX {
+    background-color: #ECC848;
+}
+
+.relatedHover {filter:brightness(120%);}
+
+
+
+
+
+
+
+
+
