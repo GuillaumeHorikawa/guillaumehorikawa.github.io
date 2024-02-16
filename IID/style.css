@@ -1,0 +1,340 @@
+
+/** !!!!! 
+NEW DIVS NEED MAX WIDTH 
+!!!!!
+*/
+
+
+body{
+    font-family: montserrat, Arial;
+}
+img
+{margin: auto !important;
+width: 100%!important;
+max-width: 100%!important;}
+
+.JSdiv {
+    background-color:#282828;
+    height: 50px;
+    margin-top: 5px;
+    color:rgb(249,249,249);
+   display: flex;
+    font-weight: 700;
+    max-width: 800px !important;
+}
+
+
+.JSDivName {
+    width: 50%;
+    margin: auto !important;
+    padding-left: 15px;
+}
+.JSDivTitle {
+    width: 50%;
+
+margin: auto !important;
+padding-right: 15px;
+}
+
+.JSDivTitle p {
+    text-align: right;
+    
+}
+
+.IIDCH {
+    margin-top: 100px;
+}
+
+
+table p {
+    margin: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0px!important;
+  
+}
+
+td {
+ width: 50% !important;
+
+ height: 200px;
+   
+
+}
+
+.IIDCHTOne td {
+    background-color: #F07760;
+}
+
+.IIDCHTTwo td {
+    background-color: rgb(230,230,220);
+}
+
+.IIDCHTTwo {
+
+}
+
+
+.RECPMCE {
+ 
+
+
+    background-size: 600px;
+    background-position-x: -150px;
+    background-position-y: -50px;
+    background-repeat: no-repeat;
+    
+    background-image: url('https://lh7-us.googleusercontent.com/9EiL6sxhCduXUNlbUPU6WWXX8wyKaVR9m8Oa-8vUk_yvZy33Xw61-F0OXARdCrxgH9HP-Ex9XZri855rcA27rm8-9rHu3bNyO11aZ8Fhl_5789g7q8w5n2gEq7cr15NH7aGgLPct4f-9GAkIXLeLLZg');
+}
+.RKURDPAE {
+
+    background-size: 500px;
+    background-position-x: -150px;
+    background-position-y: -50px;
+    background-repeat: no-repeat;
+    
+    background-image: url('https://kurdpa.net/content/upload/1/news-kurdpa/6063.jpg');
+
+   
+
+}
+
+
+
+.RA19CE p {
+    padding: 20px;
+    margin: 0;
+}
+
+.RECPMCEW {
+    
+}
+
+.IIDCMH {
+    font-weight: 700;
+    line-height: 12px;
+    font-size: 40px;
+}
+h3 {
+
+    margin-top: 0;
+}
+
+.subtitle {
+    margin: 30px 0;
+    max-width: 800px !important;
+}
+article {
+    max-width: 800px !important;
+}
+.HTMLELC {
+    max-width: 800px !important;
+}
+.main {
+    margin-top: 10px;
+    background-color: rgb(249,249,249);
+    padding: 20px;
+    max-width: 800px !important;
+    box-sizing: border-box;
+
+}
+
+.mainNP, .mainNP p {
+    direction: rtl;
+ }
+
+ .mainNP h6,  .mainNP h2 {
+    text-align: right !important;
+    direction: rtl !important;
+}
+
+p, ol {
+    text-align: justify;
+    font-size: 12px;
+}
+
+td {
+    font-size: 12px;
+}
+li {
+padding:  10px;
+margin-bottom: 10px;
+    font-size: 12px;
+    text-align: justify;
+    background-color: rgb(240,240,240);
+
+    list-style: none;
+}
+a {
+    color: #F07760;
+}
+
+ul, ol {
+    padding: 0;
+}
+
+.HTMLEIC {
+
+    max-height: 150px;
+    overflow: hidden;
+    margin: 30px auto ;
+    border-bottom: 5px solid #F07760;
+
+
+
+}
+
+.IIDNMSG a {color: rgba(0,0,0,0);}
+
+
+
+
+
+
+
+.Coalitiontd {
+    width: 7vh;
+    height: 7vh;
+    display: flex;
+margin-top: 10px;
+	margin-bottom: 10px;
+    overflow: hidden;
+    border-radius: 100%;
+	filter: drop-shadow(0 0 5px rgb(220,220,220));
+	transition: .2s ease-in-out;
+
+}
+
+
+
+.IICLNewContainer {
+    max-width: 800px;
+
+    display: flex;
+		justify-content: center!important;
+	overflow-x: scroll;
+	overflow-y: visible;
+    flex-wrap: wrap;
+
+}
+.HTMLESMC {max-width: 800px;
+
+    display: flex;
+}
+
+.HTMLESM {
+    margin: 30px auto ;
+    display:inline-block;
+
+
+}
+
+.HTMLESM a {
+    color: white;
+}
+
+
+.HTMLESMI {
+    height: 25px;
+    width: 25px!important;
+    padding: 15px;
+}
+.wp-block-image {
+margin:  0px 20px 0px 0px ;
+width: 200px;
+height: 200px;
+    overflow: hidden;
+}
+
+.FAI {
+    background-image: url('http://impactiran.org/wp-content/uploads/2024/01/HTML-Email-Banner-olvknan.jpg');
+    height: 150px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.KIIMEColA {
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.KIIMEColA img {
+   min-height: 200px;
+   display: none;
+}
+
+.wp-block-columns {
+    display: flex;
+    margin: 30px 0px;
+}
+
+.HRC53RGRC {
+    display: none;
+}
+
+
+h6 {
+    font-size: 12px;
+}
+
+.KIIMEColB h6, .KIIMEColB h5, .KIIMEColB h3  {
+    text-align: left;
+}
+
+.wp-block-table {
+    margin:  30px 0px;
+}
+
+.wp-block-table td {
+    padding-bottom: 15px !important;
+
+}
+
+.wp-block-button a {
+    font-size: 12px;
+}
+
+.wp-block-table td:nth-child(2) {
+    text-align: justify;
+}
+
+.ArticleTitle {
+    text-align: center !Important;
+}
+
+/* TEMP */
+h1 span {
+    font-weight: 400;
+}
+
+table td {
+    text-align: justify;
+    
+}
+
+
+/* END OF TEMP */
+/* MOBILE */
+@media only screen and (max-width: 600px) {
+.wp-block-columns {
+    display: block;
+}
+.wp-block-image {
+    margin: auto;
+}
+}
+/* END OF MOBILE */
+/* DESKTOP */
+
+@media (min-width: 900px) {
+h3 {
+    font-size: 24px;
+}
+}
+
+
+
+/* END OF DESKTOP */
